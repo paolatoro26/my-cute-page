@@ -6,6 +6,8 @@
 /* ---------------------------- HEADER-----*/
 header{
 	background-color: #FFECEC;
+
+
 	
 }
 header li{
@@ -17,6 +19,7 @@ header li{
 	color:white;
 	background: #424242;
 	color:white;
+
 }
 
 header li A{
@@ -74,13 +77,21 @@ header li A{
 
 
 /* ----------------------------CONTACTOS-----*/
-.row1 h3{
+h3{
 	text-align: center;
-	padding-top: 30px
+	padding-top: 30px;
+
 }
-.row2 a img{
+h3.uno{
+	margin-top: 50px;
+	padding: 30px auto
+}
+
+footer li{
+	list-style: none;
 	display: inline-block;
 	position: relative;
-	left: 40%
+	left: 40%;
+	
 
 }
