@@ -1,0 +1,81 @@
+*{
+	font-family: Garamond
+}
+
+
+/* ---------------------------- HEADER-----*/
+header{
+	background-color: #FFECEC;
+	
+}
+header li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 7px;
+	color:white;
+	background: #424242;
+	color:white;
+}
+
+header li A{
+	color:#F5A9F2;
+}
+/* ----------------------------------HERO----*/
+.hero{
+	height: 400px;
+	background:url(../images/fondo.jpg);
+	background-size: cover;
+	color:white;
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	font-family: 'Righteous', cursive;	
+	font-family: 'Sacramento', cursive;
+
+}
+.hero h1,h2{
+	position: relative;
+	top: 30%;
+	font-size: 70px
+}
+/* -------------------------- BIOGRAFIA-----*/
+.bio{
+	background-image: url(../images/confectionary.png);
+	text-align: center;
+	padding-top: 30px
+
+}
+
+.bio p{
+	text-align: justify;
+	margin-top: 15px
+}
+.bio img{
+	border-radius: 50%;
+	border-style:groove;
+
+}
+/* ----------------------------FAVORITOS-----*/
+.favoritos img{
+	width: 70%;
+	border-radius:200px;
+	margin-top: 30px
+
+}
+.favoritos {
+	text-align: center
+}
+
+
+/* ----------------------------CONTACTOS-----*/
+.row1 h3{
+	text-align: center;
+	padding-top: 30px
+}
+.row2 a img{
+	display: inline-block;
+	position: relative;
+	left: 40%
+
+}
