@@ -8,6 +8,7 @@ header{
 	background-color: #FFECEC;
 
 
+
 	
 }
 header li{
@@ -51,19 +52,35 @@ header li A{
 .bio{
 	background-image: url(../images/confectionary.png);
 	text-align: center;
-	padding-top: 30px
+	padding-top: 30px;
+
 
 }
 
 .bio p{
 	text-align: justify;
-	margin-top: 15px
+	font-size: 17px
 }
 .bio img{
 	border-radius: 50%;
 	border-style:groove;
+	position: relative;
+	z-index: 3;
+	top: -70px
 
 }
+.bio img:hover{
+-ms-transform: rotate(-400deg);
+transform: rotate(-400deg);
+-webkit-transition: all 1s ease-out;
+-ms-transition: all 1s ease;
+height: 250px;
+width: 250px;
+
+}
+
+
+
 /* ----------------------------FAVORITOS-----*/
 .favoritos img{
 	width: 70%;
@@ -74,7 +91,12 @@ header li A{
 .favoritos {
 	text-align: center
 }
-
+ .favoritos div{
+ 	margin-bottom: 50px
+ }
+ .favoritos h2{
+ 	margin-top: 100px
+ }
 
 /* ----------------------------CONTACTOS-----*/
 h3{
